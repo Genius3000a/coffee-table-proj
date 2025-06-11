@@ -18,7 +18,7 @@ const scene = new THREE.Scene()
 
 let crate: THREE.Group<THREE.Object3DEventMap> | null = null
 
-loader.load("src/models/table.glb", gltf => {
+loader.load("/models/table.glb", gltf => {
    crate = gltf.scene
    crate.position.y = -0.95
    crate.position.z = 2.44
