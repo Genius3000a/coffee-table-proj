@@ -1,0 +1,22 @@
+{
+  "name": "coffee-table-proj",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "@types/three": "^0.177.0",
+    "gsap": "^3.13.0",
+    "split-type": "^0.3.4",
+    "three": "^0.177.0"
+  }
+}

@@ -1,0 +1,74 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html,
+body {
+   height: 100vh;
+   font-family: "Poppins";
+   background: #e2cdbd;
+}
+
+.webGL {
+   position: fixed;
+   top: 0;
+   left: 0;
+   outline: none;
+   z-index: 0;
+}
+
+section {
+   height: 100vh;
+   display: grid;
+   place-items: center;
+   text-align: center;
+}
+
+section.details {
+   height: 150vh;
+   color: white;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   .inner {
+      position: relative;
+      z-index: 1;
+      text-align: left;
+      display: grid;
+      margin-top: 5%;
+
+      ul {
+         display: flex;
+         list-style-type: none;
+         gap: 3em;
+         align-self: top;
+         justify-content: center;
+
+         li {
+            width: 25%;
+            overflow: hidden;
+
+            strong {
+               margin-bottom: 1em;
+               display: block;
+               font-size: 1.2rem;
+            }
+         }
+      }
+   }
+}
+
+.mask {
+   overflow: hidden;
+}
+
+h1 {
+   font-size: 8rem;
+}
+
+.subhead {
+   font-size: 2rem;
+   text-transform: uppercase;
+   letter-spacing: 1rem;
+}
